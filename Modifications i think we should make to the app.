@@ -1,0 +1,10 @@
+
+Because of time, i thought we could remove the whole authentication thing for general users. the aunthentication for doctors and admin could
+just be a permanent password done with an if statement. i also removed the admin class because the admin isnt necessarily entering any information, 
+just overseeing what has been entered. The tables are for availability, doctor, user (which could be admin or patient) and appointment.
+
+I was thinking that on opening of the app, there should be a home page shwoing a welcome messgae, and asking the person to input their role, whether patient, doctor,
+or admin. and then a button to sumbit that. on clicking patient, it would take them to a page where they enter their details and book based on
+the availability of doctors available. On clicking doctor, they arre directed to a page where they'd have to confirm that with the permanent password,
+when confirmed, theywill be directed to another page where they enteer details and availability.
+
